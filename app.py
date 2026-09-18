@@ -81,7 +81,7 @@ st.set_page_config(page_title="Hand Gesture App", layout="centered")
 st.title("🖐️ Instant Hand Gesture Recognition")
 st.write("Show your hand to the camera to see gesture detection in real-time.")
 
-RTC_CONFIG = RTCConfiguration({"iceServers": [{"urls": ["stun:://google.com"]}]})
+RTC_CONFIG = RTCConfiguration({"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]})
 
 webrtc_streamer(
     key="gesture-detection",
