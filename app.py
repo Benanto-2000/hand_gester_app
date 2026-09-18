@@ -69,7 +69,7 @@ class GestureTransformer(VideoTransformerBase):
                     label = "Gesture: Fist ✊"
                 elif total_fingers == 5:
                     label = "Gesture: Open Palm 🖐️"
-                elif total_figures == 2:
+                elif total_fingers == 2:
                     label = "Gesture: peace ✌️"
                 else:
                     label = f"Fingers Raised: {total_fingers}"
